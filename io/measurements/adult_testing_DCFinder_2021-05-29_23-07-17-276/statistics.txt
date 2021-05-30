@@ -1,0 +1,12 @@
+de.metanome.algorithms.dcfinder.DCFinder@1554909b
+
+Config:
+	algorithm: DCFinder
+	dataset: adult_testing.csv
+	approximation degree: 0.1
+	cross column min overlap: 0.3
+	no cross column: true
+
+Runtime: 4316
+
+Results: 355

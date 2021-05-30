@@ -1,26 +1,33 @@
 package de.uni_potsdam.hpi.metanome_test_runner.config;
 
+import de.metanome.algorithms.dcfinder.DCFinder;
 import java.io.File;
+import javax.xml.soap.SAAJResult;
 
 public class Config {
 
 	public enum Algorithm {
-		MYODDETECTOR
+		DCFinder
 	}
 	
 	public enum Dataset {
-		PLANETS, SYMBOLS, SCIENCE, SATELLITES, GAME, ASTRONOMICAL, ABALONE, ADULT, BALANCE, BREAST, BRIDGES, CHESS, ECHODIAGRAM, FLIGHT, HEPATITIS, HORSE, IRIS, LETTER, NURSERY, PETS, NCVOTER_1K, UNIPROD_1K
+		ADULT_TESTING, PLANETS, SYMBOLS, SCIENCE, SATELLITES, GAME, ASTRONOMICAL, ABALONE, ADULT, BALANCE, BREAST, BRIDGES, CHESS, ECHODIAGRAM, FLIGHT, HEPATITIS, HORSE, IRIS, LETTER, NURSERY, PETS, NCVOTER_1K, UNIPROD_1K
 	}
 	
 	public Config.Algorithm algorithm;
 	public Config.Dataset dataset;
-	
-	public String someStringParameter = "MyStringParamaterValue";
-	public Integer someIntegerParameter = Integer.valueOf(42);
-	public Boolean someBooleanParameter = Boolean.valueOf(true);
-	
+
+	public int chunkLength = 10000 * 5000;
+	public int bufferLength = 5000;
+	public double errorThreshold = 0.01d;
+	public String approximationDegree = "0.1";
+	public String crossColumnStringMinOverlap = "0.3";
+	public boolean noCrossColumn = true;
+	public long violationsThreshold = 0L;
+	public long rsize = 0;
+
 	public String inputDatasetName;
-	public String inputFolderPath = "/Users/testing/Downloads/workspace/MetanomeTestRunner/data" + File.separator;
+	public String inputFolderPath = "/Users/testing/Desktop/workspace/MetanomeTestRunner/data" + File.separator;
 	public String inputFileEnding = ".csv";
 	public String inputFileNullString = "";
 	public char inputFileSeparator;
@@ -29,20 +36,24 @@ public class Config {
 	public int inputFileSkipLines = 0;
 	public boolean inputFileStrictQuotes = false;
 	public boolean inputFileIgnoreLeadingWhiteSpace = true;
-	public boolean inputFileHasHeader;
+	public boolean inputFileHasHeader = true;
 	public boolean inputFileSkipDifferingLines = true; // Skip lines that differ from the dataset's schema
 	
 	public String measurementsFolderPath = "io" + File.separator + "measurements" + File.separator;
 	
 	public String statisticsFileName = "statistics.txt";
 	public String resultFileName = "results.txt";
-	
+	public String rankingResultFileName = "results_ranking.txt";
+
 	public boolean writeResults = true;
 	
 	public static Config create(String[] args) {
 		if (args.length == 0)
 			return new Config();
-		
+		String approximationDegree = args[2];
+		String crossColumnStringMinOverlap = args[3];
+		boolean noCrossColumn = Boolean.parseBoolean(args[4]);
+
 		Config.Algorithm algorithm = null;
 		String algorithmArg = args[0].toLowerCase();
 		for (Config.Algorithm possibleAlgorithm : Config.Algorithm.values())
@@ -58,7 +69,7 @@ public class Config {
 		if ((algorithm == null) || (dataset == null))
 			wrongArguments();
 		
-		return new Config(algorithm, dataset);
+		return new Config(algorithm, dataset, approximationDegree, crossColumnStringMinOverlap, noCrossColumn);
 	}
 	
 	private static void wrongArguments() {
@@ -69,19 +80,26 @@ public class Config {
 	}
 	
 	public Config() {
-		this(Config.Algorithm.MYODDETECTOR, Config.Dataset.PLANETS);
+		this(Algorithm.DCFinder, Dataset.ADULT, "0.1", "0.3", true);
 	}
 
-	public Config(Config.Algorithm algorithm, Config.Dataset dataset) {
+	public Config(Config.Algorithm algorithm, Config.Dataset dataset, String approximationDegree, String crossColumnStringMinOverlap, boolean noCrossColumn) {
 		this.algorithm = algorithm;
 		this.setDataset(dataset);
+		this.approximationDegree = approximationDegree;
+		this.crossColumnStringMinOverlap = crossColumnStringMinOverlap;
+		this.noCrossColumn = noCrossColumn;
 	}
 
 	@Override
 	public String toString() {
 		return "Config:\r\n\t" +
 			"algorithm: " + this.algorithm.name() + "\r\n\t" +
-			"dataset: " + this.inputDatasetName + this.inputFileEnding;
+			"dataset: " + this.inputDatasetName + this.inputFileEnding + "\r\n\t"
+		+ "approximation degree: " + this.approximationDegree + "\r\n\t" +
+				"cross column min overlap: " + this.crossColumnStringMinOverlap + "\r\n\t" +
+				"no cross column: " + this.noCrossColumn
+				;
 	}
 
 	private void setDataset(Config.Dataset dataset) {
@@ -125,7 +143,12 @@ public class Config {
 			case ADULT:
 				this.inputDatasetName = "adult";
 				this.inputFileSeparator = ';';
-				this.inputFileHasHeader = false;
+				this.inputFileHasHeader = true;
+				break;
+			case ADULT_TESTING:
+				this.inputDatasetName = "adult_testing";
+				this.inputFileSeparator = ';';
+				this.inputFileHasHeader = true;
 				break;
 			case BALANCE:
 				this.inputDatasetName = "balance-scale";

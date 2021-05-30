@@ -1,3 +1,5 @@
+Configuration setting:
+algorithmArg datasetArg approximation_degree cross_col_min_overlap cross_col_bollean
 Introduction:
 This is a getting-started package for Metanome algorithm developer. It contains two skeleton projects "MyOdDetector" and 
 "MetanomeTestRunner". MyOdDetector is the actual profiling algorithm. The jar-file that you can build from this algorithm 
