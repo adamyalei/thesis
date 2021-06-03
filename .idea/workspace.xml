@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ea2879e1-0de6-446e-8101-bda0764b6500" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Metanome/.bash_profile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Metanome/exp_log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/io/measurements/adult_DCFinder_2021-06-01_12-21-30-661/results.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/io/measurements/adult_DCFinder_2021-06-01_12-21-30-661/results_ranking.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/io/measurements/adult_DCFinder_2021-06-01_12-21-30-661/statistics.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/io/measurements/adult_DCFinder_2021-06-01_12-53-45-553/results.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/io/measurements/adult_DCFinder_2021-06-01_12-53-45-553/results_ranking.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/io/measurements/adult_DCFinder_2021-06-01_12-53-45-553/statistics.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/io/measurements/adult_testing_DCFinder_2021-05-31_11-29-19-393/results.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/io/measurements/adult_testing_DCFinder_2021-05-31_11-29-19-393/results_ranking.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/io/measurements/adult_testing_DCFinder_2021-05-31_11-29-19-393/statistics.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Metanome/algorithm_integration/src/main/java/de/metanome/algorithm_integration/results/DenialConstraint.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Metanome/algorithm_integration/src/main/java/de/metanome/algorithm_integration/results/DenialConstraint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Metanome/backend/src/main/java/de/metanome/backend/result_postprocessing/result_ranking/DenialConstraintResultRanking.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Metanome/backend/src/main/java/de/metanome/backend/result_postprocessing/result_ranking/DenialConstraintResultRanking.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Metanome/backend/src/main/java/de/metanome/backend/result_postprocessing/result_ranking/Ranking.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Metanome/backend/src/main/java/de/metanome/backend/result_postprocessing/result_ranking/Ranking.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Metanome/backend/src/main/java/de/metanome/backend/result_postprocessing/results/DenialConstraintResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Metanome/backend/src/main/java/de/metanome/backend/result_postprocessing/results/DenialConstraintResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Metanome/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Metanome/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MetanomeTestRunner/src/main/java/de/uni_potsdam/hpi/metanome_test_runner/mocks/MetanomeMock.java" beforeDir="false" afterPath="$PROJECT_DIR$/MetanomeTestRunner/src/main/java/de/uni_potsdam/hpi/metanome_test_runner/mocks/MetanomeMock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MetanomeTestRunner/target/classes/de/uni_potsdam/hpi/metanome_test_runner/mocks/MetanomeMock.class" beforeDir="false" afterPath="$PROJECT_DIR$/MetanomeTestRunner/target/classes/de/uni_potsdam/hpi/metanome_test_runner/mocks/MetanomeMock.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyOdDetector/target/classes/de/metanome/algorithms/myoddetector/MyOdDetector$Identifier.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyOdDetector/target/classes/de/metanome/algorithms/myoddetector/MyOdDetector.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyOdDetector/target/classes/de/metanome/algorithms/myoddetector/MyOdDetectorAlgorithm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyOdDetector/target/test-classes/de/metanome/algorithms/myoddetector/MyOdDetectorTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dcfinder/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dcfinder/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dcfinder/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dcfinder/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dcfinder/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dcfinder/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dcfinder/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dcfinder/.idea/libraries/Maven__cglib_cglib_nodep_2_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dcfinder/.idea/libraries/Maven__com_apple_AppleJavaExtensions_1_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dcfinder/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_8_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dcfinder/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_8_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dcfinder/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_8_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dcfinder/.idea/libraries/Maven__com_fasterxml_jackson_jaxrs_jackson_jaxrs_base_2_8_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dcfinder/.idea/libraries/Maven__com_fasterxml_jackson_jaxrs_jackson_jaxrs_json_provider_2_8_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dcfinder/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_jaxb_annotations_2_8_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dcfinder/.idea/libraries/Maven__com_google_code_findbugs_jsr305_1_3_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dcfinder/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_0_18.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dcfinder/.idea/libraries/Maven__com_google_guava_guava_23_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dcfinder/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dcfinder/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dcfinder/.idea/libraries/Maven__com_googlecode_efficient_java_matrix_library_ejml_0_23.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dcfinder/.idea/libraries/Maven__com_googlecode_json_simple_json_simple_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dcfinder/.idea/libraries/Maven__com_ibm_db2_jcc_11_1_4_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dcfinder/.idea/libraries/Maven__com_io7m_xom_xom_1_2_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dcfinder/.idea/libraries/Maven__com_sap_cloud_db_jdbc_ngdbc_2_4_62.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dcfinder/.idea/libraries/Maven__com_sun_xml_bind_jaxb_core_2_3_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dcfinder/.idea/libraries/Maven__com_sun_xml_bind_jaxb_impl_2_4_0_b180830_0438.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dcfinder/.idea/libraries/Maven__com_sun_xml_bind_jaxb_osgi_2_2_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dcfinder/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dcfinder/.idea/libraries/Maven__de_jollyday_jollyday_0_4_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dcfinder/.idea/libraries/Maven__de_metanome_algorithm_helper_1_2_SNAPSHOT.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dcfinder/.idea/libraries/Maven__de_metanome_algorithm_integration_1_2_SNAPSHOT.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dcfinder/.idea/libraries/Maven__de_metanome_backend_1_2_SNAPSHOT.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dcfinder/.idea/libraries/Maven__de_metanome_test_helper_1_2_SNAPSHOT.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dcfinder/.idea/libraries/Maven__de_uni_potsdam_hpi_dao_0_0_1_SNAPSHOT.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dcfinder/.idea/libraries/Maven__de_uni_potsdam_hpi_utils_0_0_1_SNAPSHOT.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dcfinder/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dcfinder/.idea/libraries/Maven__edu_stanford_nlp_stanford_corenlp_3_9_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dcfinder/.idea/libraries/Maven__it_unimi_dsi_fastutil_8_4_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dcfinder/.idea/libraries/Maven__javax_activation_activation_1_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dcfinder/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dcfinder/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dcfinder/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dcfinder/.idea/libraries/Maven__javax_validation_validation_api_1_1_0_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dcfinder/.idea/libraries/Maven__javax_ws_rs_javax_ws_rs_api_2_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dcfinder/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_4_0_b180830_0359.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dcfinder/.idea/libraries/Maven__joda_time_joda_time_2_9_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dcfinder/.idea/libraries/Maven__junit_junit_4_13_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dcfinder/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_16.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dcfinder/.idea/libraries/Maven__net_sf_opencsv_opencsv_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dcfinder/.idea/libraries/Maven__net_sf_trove4j_trove4j_3_0_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dcfinder/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dcfinder/.idea/libraries/Maven__org_apache_lucene_lucene_analyzers_common_4_10_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dcfinder/.idea/libraries/Maven__org_apache_lucene_lucene_core_4_10_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dcfinder/.idea/libraries/Maven__org_apache_lucene_lucene_queries_4_10_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dcfinder/.idea/libraries/Maven__org_apache_lucene_lucene_queryparser_4_10_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dcfinder/.idea/libraries/Maven__org_apache_lucene_lucene_sandbox_4_10_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dcfinder/.idea/libraries/Maven__org_apache_tomcat_tomcat_servlet_api_8_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dcfinder/.idea/libraries/Maven__org_codehaus_mojo_animal_sniffer_annotations_1_14.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dcfinder/.idea/libraries/Maven__org_glassfish_hk2_external_aopalliance_repackaged_2_5_0_b30.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dcfinder/.idea/libraries/Maven__org_glassfish_hk2_external_javax_inject_2_5_0_b30.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dcfinder/.idea/libraries/Maven__org_glassfish_hk2_hk2_api_2_5_0_b30.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dcfinder/.idea/libraries/Maven__org_glassfish_hk2_hk2_locator_2_5_0_b30.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dcfinder/.idea/libraries/Maven__org_glassfish_hk2_hk2_utils_2_5_0_b30.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dcfinder/.idea/libraries/Maven__org_glassfish_hk2_osgi_resource_locator_1_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dcfinder/.idea/libraries/Maven__org_glassfish_javax_json_1_0_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dcfinder/.idea/libraries/Maven__org_glassfish_jersey_bundles_repackaged_jersey_guava_2_25.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dcfinder/.idea/libraries/Maven__org_glassfish_jersey_containers_jersey_container_servlet_core_2_25.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dcfinder/.idea/libraries/Maven__org_glassfish_jersey_core_jersey_client_2_25.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dcfinder/.idea/libraries/Maven__org_glassfish_jersey_core_jersey_common_2_25.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dcfinder/.idea/libraries/Maven__org_glassfish_jersey_core_jersey_server_2_25.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dcfinder/.idea/libraries/Maven__org_glassfish_jersey_ext_jersey_entity_filtering_2_25.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dcfinder/.idea/libraries/Maven__org_glassfish_jersey_media_jersey_media_jaxb_2_25.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dcfinder/.idea/libraries/Maven__org_glassfish_jersey_media_jersey_media_json_jackson_2_25.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dcfinder/.idea/libraries/Maven__org_glassfish_jersey_media_jersey_media_multipart_2_25.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dcfinder/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dcfinder/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_4_0_5_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dcfinder/.idea/libraries/Maven__org_hibernate_hibernate_core_4_3_10_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dcfinder/.idea/libraries/Maven__org_hibernate_javax_persistence_hibernate_jpa_2_1_api_1_0_0_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dcfinder/.idea/libraries/Maven__org_hsqldb_hsqldb_2_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dcfinder/.idea/libraries/Maven__org_javassist_javassist_3_18_1_GA.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dcfinder/.idea/libraries/Maven__org_jboss_jandex_1_1_0_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dcfinder/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_1_3_GA.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dcfinder/.idea/libraries/Maven__org_jboss_logging_jboss_logging_annotations_1_2_0_Beta1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dcfinder/.idea/libraries/Maven__org_jboss_spec_javax_transaction_jboss_transaction_api_1_2_spec_1_0_0_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dcfinder/.idea/libraries/Maven__org_jparsec_jparsec_2_2_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dcfinder/.idea/libraries/Maven__org_jvnet_mimepull_mimepull_1_9_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dcfinder/.idea/libraries/Maven__org_mockito_mockito_all_1_10_19.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dcfinder/.idea/libraries/Maven__org_postgresql_postgresql_9_3_1102_jdbc41.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dcfinder/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_21.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dcfinder/.idea/libraries/Maven__org_slf4j_slf4j_simple_1_7_21.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dcfinder/.idea/libraries/Maven__xalan_xalan_2_7_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dcfinder/.idea/libraries/Maven__xerces_xercesImpl_2_8_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dcfinder/.idea/libraries/Maven__xml_apis_xml_apis_1_3_03.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dcfinder/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dcfinder/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dcfinder/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dcfinder/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dcfinder/dcfinder.iml" beforeDir="false" afterPath="$PROJECT_DIR$/dcfinder/dcfinder.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dcfinder/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dcfinder/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dcfinder/src/main/java/de/metanome/algorithms/dcfinder/DCFinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/dcfinder/src/main/java/de/metanome/algorithms/dcfinder/DCFinder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dcfinder/src/main/java/de/metanome/algorithms/dcfinder/DCFinderAlgorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/dcfinder/src/main/java/de/metanome/algorithms/dcfinder/DCFinderAlgorithm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dcfinder/src/main/java/de/metanome/algorithms/dcfinder/DCFinderAlgorithm_backup.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dcfinder/src/main/java/de/metanome/algorithms/dcfinder/DCFinderMetanome.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dcfinder/src/main/java/de/metanome/algorithms/dcfinder/DCFinder_backup.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dcfinder/src/main/java/de/metanome/algorithms/dcfinder/Math.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dcfinder/src/main/java/de/metanome/algorithms/dcfinder/evidenceset/IEvidenceSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/dcfinder/src/main/java/de/metanome/algorithms/dcfinder/evidenceset/IEvidenceSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dcfinder/src/main/java/de/metanome/algorithms/dcfinder/helpers/ResultPostProcessorHelper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dcfinder/src/main/java/de/metanome/algorithms/dcfinder/resultprocess/DCConstraintResultAnalyzer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dcfinder/src/main/java/de/metanome/algorithms/dcfinder/resultprocess/DenialConstraint.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dcfinder/src/main/java/de/metanome/algorithms/dcfinder/resultprocess/DenialConstraintRanking.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dcfinder/src/main/java/de/metanome/algorithms/dcfinder/resultprocess/DenialConstraintResult.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dcfinder/src/main/java/de/metanome/algorithms/dcfinder/resultprocess/ResultAnalyzer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dcfinder/src/main/java/de/metanome/algorithms/dcfinder/resultprocess/ResultPostProcessorHelper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dcfinder/src/main/java/de/metanome/algorithms/dcfinder/setcover/partial/MinimalCoverCandidate.java" beforeDir="false" afterPath="$PROJECT_DIR$/dcfinder/src/main/java/de/metanome/algorithms/dcfinder/setcover/partial/MinimalCoverCandidate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dcfinder/src/main/java/de/metanome/algorithms/dcfinder/setcover/partial/MinimalCoverSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/dcfinder/src/main/java/de/metanome/algorithms/dcfinder/setcover/partial/MinimalCoverSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dcfinder/src/main/java/de/metanome/algorithms/myoddetector/DCFinder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dcfinder/src/main/java/de/metanome/algorithms/myoddetector/DCFinderAlgorithm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dcfinder/src/test/java/de/metanome/algorithms/dcfinder/DCFinderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/dcfinder/src/test/java/de/metanome/algorithms/dcfinder/DCFinderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dcfinder/src/test/java/de/metanome/algorithms/dcfinder/MyOdDetectorTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dcfinder/src/test/java/de/metanome/algorithms/dcfinder/dcfinder/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dcfinder/src/test/java/de/metanome/algorithms/myoddetector/MyOdDetectorTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dcfinder/target/classes/de/metanome/algorithms/dcfinder/DCFinder$Identifier.class" beforeDir="false" afterPath="$PROJECT_DIR$/dcfinder/target/classes/de/metanome/algorithms/dcfinder/DCFinder$Identifier.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dcfinder/target/classes/de/metanome/algorithms/dcfinder/DCFinder.class" beforeDir="false" afterPath="$PROJECT_DIR$/dcfinder/target/classes/de/metanome/algorithms/dcfinder/DCFinder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dcfinder/target/classes/de/metanome/algorithms/dcfinder/DCFinderAlgorithm.class" beforeDir="false" afterPath="$PROJECT_DIR$/dcfinder/target/classes/de/metanome/algorithms/dcfinder/DCFinderAlgorithm.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dcfinder/target/classes/de/metanome/algorithms/dcfinder/DCFinderAlgorithm_backup.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dcfinder/target/classes/de/metanome/algorithms/dcfinder/DCFinder_backup$Identifier.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dcfinder/target/classes/de/metanome/algorithms/dcfinder/DCFinder_backup.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dcfinder/target/classes/de/metanome/algorithms/dcfinder/setcover/partial/MinimalCoverCandidate$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/dcfinder/target/classes/de/metanome/algorithms/dcfinder/setcover/partial/MinimalCoverCandidate$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dcfinder/target/classes/de/metanome/algorithms/dcfinder/setcover/partial/MinimalCoverCandidate.class" beforeDir="false" afterPath="$PROJECT_DIR$/dcfinder/target/classes/de/metanome/algorithms/dcfinder/setcover/partial/MinimalCoverCandidate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dcfinder/target/classes/de/metanome/algorithms/dcfinder/setcover/partial/MinimalCoverSearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/dcfinder/target/classes/de/metanome/algorithms/dcfinder/setcover/partial/MinimalCoverSearch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dcfinder/target/classes/de/metanome/algorithms/myoddetector/DCFinder$Identifier.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dcfinder/target/classes/de/metanome/algorithms/myoddetector/DCFinder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dcfinder/target/classes/de/metanome/algorithms/myoddetector/DCFinderAlgorithm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dcfinder/target/classes/de/metanome/algorithms/myoddetector/MyOdDetector$Identifier.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dcfinder/target/classes/de/metanome/algorithms/myoddetector/MyOdDetector.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dcfinder/target/classes/de/metanome/algorithms/myoddetector/MyOdDetectorAlgorithm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dcfinder/target/test-classes/de/metanome/algorithms/myoddetector/MyOdDetectorTest.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../Metanome" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="jdkForImporter" value="1.8" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1rwL0JNHYUEdoO8S5iglowhRPKE" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/MetanomeTestRunner/data" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/../Exp_uiStability/sorted_2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/MetanomeTestRunner/data" />
+      <recent name="$PROJECT_DIR$/DCFinder/src/main/java" />
+      <recent name="$PROJECT_DIR$/DCFinder/src/main/java/de/metanome/algorithms/dcfinder" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="de.metanome.algorithms.dcfinder.resultprocess" />
+      <recent name="de.metanome.algorithms.dcfinder" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="de.metanome.algorithms.dcfinder" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="de.uni_potsdam.hpi.metanome_test_runner.Main" />
+      <module name="MetanomeTestRunner" />
+      <option name="PROGRAM_PARAMETERS" value="DCFinder adult 0.1 0.3 true" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.uni_potsdam.hpi.metanome_test_runner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ea2879e1-0de6-446e-8101-bda0764b6500" name="Default Changelist" comment="" />
+      <created>1619881980525</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1619881980525</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="-1472" y="195" width="560" height="266" key="#Notifications" timestamp="1620919954013">
+      <screen x="-2048" y="-235" width="2048" height="1127" />
+    </state>
+    <state x="-1472" y="195" width="560" height="266" key="#Notifications/0.25.1280.775/-2048.-235.2048.1127@-2048.-235.2048.1127" timestamp="1620919954013" />
+    <state x="152" y="81" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1622523001225">
+      <screen x="0" y="25" width="1280" height="775" />
+    </state>
+    <state x="-1180" y="-26" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1280.775/-2048.-235.2048.1127@-2048.-235.2048.1127" timestamp="1620981570340" />
+    <state x="209" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1280.775/0.-695.1280.695@0.25.1280.775" timestamp="1622279070701" />
+    <state x="152" y="81" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1280.775@0.25.1280.775" timestamp="1622523001225" />
+    <state x="451" y="123" key="#com.intellij.ide.util.MemberChooser" timestamp="1622431209062">
+      <screen x="0" y="25" width="1280" height="775" />
+    </state>
+    <state x="451" y="123" key="#com.intellij.ide.util.MemberChooser/0.25.1280.775/0.-695.1280.695@0.25.1280.775" timestamp="1622216129362" />
+    <state x="451" y="123" key="#com.intellij.ide.util.MemberChooser/0.25.1280.775@0.25.1280.775" timestamp="1622431209062" />
+    <state x="-1395" y="-87" width="958" height="570" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1620599032024">
+      <screen x="-2048" y="-235" width="2048" height="1127" />
+    </state>
+    <state x="-1395" y="-87" width="958" height="570" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog/0.25.1280.775/-2048.-235.2048.1127@-2048.-235.2048.1127" timestamp="1620599032024" />
+    <state x="408" y="127" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog/0.25.1280.775@0.25.1280.775" timestamp="1619885632012" />
+    <state x="-2048" y="-235" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1620054967782">
+      <screen x="-2048" y="-235" width="2048" height="1127" />
+    </state>
+    <state x="-2048" y="-235" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.25.1280.775/-2048.-235.2048.1127@-2048.-235.2048.1127" timestamp="1620054967782" />
+    <state x="476" y="241" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1622279570330">
+      <screen x="0" y="25" width="1280" height="775" />
+    </state>
+    <state x="-1286" y="79" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.25.1280.775/-2048.-235.2048.1127@-2048.-235.2048.1127" timestamp="1620076910726" />
+    <state x="476" y="241" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.25.1280.775/0.-695.1280.695@0.25.1280.775" timestamp="1622279570330" />
+    <state x="411" y="292" key="DetectedRootsChooserDialog" timestamp="1619885647101">
+      <screen x="0" y="25" width="1280" height="775" />
+    </state>
+    <state x="411" y="292" key="DetectedRootsChooserDialog/0.25.1280.775@0.25.1280.775" timestamp="1619885647101" />
+    <state x="24" y="25" width="1256" height="665" key="DiffContextDialog" timestamp="1622434529909">
+      <screen x="0" y="25" width="1280" height="775" />
+    </state>
+    <state x="-2048" y="-87" width="1888" height="837" key="DiffContextDialog/0.25.1280.775/-2048.-235.2048.1127@-2048.-235.2048.1127" timestamp="1620683847447" />
+    <state x="100" y="125" width="1080" height="575" key="DiffContextDialog/0.25.1280.775/-2048.-235.2048.1127@0.25.1280.775" timestamp="1619949770575" />
+    <state x="24" y="25" width="1256" height="665" key="DiffContextDialog/0.25.1280.775/0.-695.1280.695@0.25.1280.775" timestamp="1621925831939" />
+    <state x="24" y="25" width="1256" height="665" key="DiffContextDialog/0.25.1280.775@0.25.1280.775" timestamp="1622434529909" />
+    <state width="1238" height="257" key="GridCell.Tab.0.bottom" timestamp="1622531679395">
+      <screen x="0" y="25" width="1280" height="775" />
+    </state>
+    <state width="2006" height="350" key="GridCell.Tab.0.bottom/0.25.1280.775/-2048.-235.2048.1127@-2048.-235.2048.1127" timestamp="1620985052893" />
+    <state width="1238" height="242" key="GridCell.Tab.0.bottom/0.25.1280.775/-2048.-235.2048.1127@0.25.1280.775" timestamp="1619950604189" />
+    <state width="1238" height="257" key="GridCell.Tab.0.bottom/0.25.1280.775/0.-695.1280.695@0.25.1280.775" timestamp="1622531679395" />
+    <state width="1238" height="257" key="GridCell.Tab.0.bottom/0.25.1280.775@0.25.1280.775" timestamp="1622523289259" />
+    <state width="1238" height="257" key="GridCell.Tab.0.center" timestamp="1622531679394">
+      <screen x="0" y="25" width="1280" height="775" />
+    </state>
+    <state width="2006" height="350" key="GridCell.Tab.0.center/0.25.1280.775/-2048.-235.2048.1127@-2048.-235.2048.1127" timestamp="1620985052892" />
+    <state width="1238" height="242" key="GridCell.Tab.0.center/0.25.1280.775/-2048.-235.2048.1127@0.25.1280.775" timestamp="1619950604188" />
+    <state width="1238" height="257" key="GridCell.Tab.0.center/0.25.1280.775/0.-695.1280.695@0.25.1280.775" timestamp="1622531679394" />
+    <state width="1238" height="257" key="GridCell.Tab.0.center/0.25.1280.775@0.25.1280.775" timestamp="1622523289256" />
+    <state width="1238" height="257" key="GridCell.Tab.0.left" timestamp="1622531679393">
+      <screen x="0" y="25" width="1280" height="775" />
+    </state>
+    <state width="2006" height="350" key="GridCell.Tab.0.left/0.25.1280.775/-2048.-235.2048.1127@-2048.-235.2048.1127" timestamp="1620985052891" />
+    <state width="1238" height="242" key="GridCell.Tab.0.left/0.25.1280.775/-2048.-235.2048.1127@0.25.1280.775" timestamp="1619950604187" />
+    <state width="1238" height="257" key="GridCell.Tab.0.left/0.25.1280.775/0.-695.1280.695@0.25.1280.775" timestamp="1622531679393" />
+    <state width="1238" height="257" key="GridCell.Tab.0.left/0.25.1280.775@0.25.1280.775" timestamp="1622523289254" />
+    <state width="1238" height="257" key="GridCell.Tab.0.right" timestamp="1622531679395">
+      <screen x="0" y="25" width="1280" height="775" />
+    </state>
+    <state width="2006" height="350" key="GridCell.Tab.0.right/0.25.1280.775/-2048.-235.2048.1127@-2048.-235.2048.1127" timestamp="1620985052892" />
+    <state width="1238" height="242" key="GridCell.Tab.0.right/0.25.1280.775/-2048.-235.2048.1127@0.25.1280.775" timestamp="1619950604188" />
+    <state width="1238" height="257" key="GridCell.Tab.0.right/0.25.1280.775/0.-695.1280.695@0.25.1280.775" timestamp="1622531679395" />
+    <state width="1238" height="257" key="GridCell.Tab.0.right/0.25.1280.775@0.25.1280.775" timestamp="1622523289257" />
+    <state width="1238" height="91" key="GridCell.Tab.1.bottom" timestamp="1622387117034">
+      <screen x="0" y="25" width="1280" height="775" />
+    </state>
+    <state width="2006" height="350" key="GridCell.Tab.1.bottom/0.25.1280.775/-2048.-235.2048.1127@-2048.-235.2048.1127" timestamp="1620985052895" />
+    <state width="1238" height="242" key="GridCell.Tab.1.bottom/0.25.1280.775/-2048.-235.2048.1127@0.25.1280.775" timestamp="1619950604191" />
+    <state width="1238" height="268" key="GridCell.Tab.1.bottom/0.25.1280.775/0.-695.1280.695@0.25.1280.775" timestamp="1622301945545" />
+    <state width="1238" height="91" key="GridCell.Tab.1.bottom/0.25.1280.775@0.25.1280.775" timestamp="1622387117034" />
+    <state width="1238" height="91" key="GridCell.Tab.1.center" timestamp="1622387117034">
+      <screen x="0" y="25" width="1280" height="775" />
+    </state>
+    <state width="2006" height="350" key="GridCell.Tab.1.center/0.25.1280.775/-2048.-235.2048.1127@-2048.-235.2048.1127" timestamp="1620985052894" />
+    <state width="1238" height="242" key="GridCell.Tab.1.center/0.25.1280.775/-2048.-235.2048.1127@0.25.1280.775" timestamp="1619950604190" />
+    <state width="1238" height="268" key="GridCell.Tab.1.center/0.25.1280.775/0.-695.1280.695@0.25.1280.775" timestamp="1622301945544" />
+    <state width="1238" height="91" key="GridCell.Tab.1.center/0.25.1280.775@0.25.1280.775" timestamp="1622387117034" />
+    <state width="1238" height="91" key="GridCell.Tab.1.left" timestamp="1622387117034">
+      <screen x="0" y="25" width="1280" height="775" />
+    </state>
+    <state width="2006" height="350" key="GridCell.Tab.1.left/0.25.1280.775/-2048.-235.2048.1127@-2048.-235.2048.1127" timestamp="1620985052893" />
+    <state width="1238" height="242" key="GridCell.Tab.1.left/0.25.1280.775/-2048.-235.2048.1127@0.25.1280.775" timestamp="1619950604189" />
+    <state width="1238" height="268" key="GridCell.Tab.1.left/0.25.1280.775/0.-695.1280.695@0.25.1280.775" timestamp="1622301945544" />
+    <state width="1238" height="91" key="GridCell.Tab.1.left/0.25.1280.775@0.25.1280.775" timestamp="1622387117034" />
+    <state width="1238" height="91" key="GridCell.Tab.1.right" timestamp="1622387117034">
+      <screen x="0" y="25" width="1280" height="775" />
+    </state>
+    <state width="2006" height="350" key="GridCell.Tab.1.right/0.25.1280.775/-2048.-235.2048.1127@-2048.-235.2048.1127" timestamp="1620985052894" />
+    <state width="1238" height="242" key="GridCell.Tab.1.right/0.25.1280.775/-2048.-235.2048.1127@0.25.1280.775" timestamp="1619950604190" />
+    <state width="1238" height="268" key="GridCell.Tab.1.right/0.25.1280.775/0.-695.1280.695@0.25.1280.775" timestamp="1622301945544" />
+    <state width="1238" height="91" key="GridCell.Tab.1.right/0.25.1280.775@0.25.1280.775" timestamp="1622387117034" />
+    <state x="178" y="71" key="Maven.ArtifactSearchDialog" timestamp="1621861578459">
+      <screen x="0" y="25" width="1280" height="775" />
+    </state>
+    <state x="-1763" y="-168" key="Maven.ArtifactSearchDialog/0.25.1280.775/-2048.-235.2048.1127@-2048.-235.2048.1127" timestamp="1620679822329" />
+    <state x="178" y="71" key="Maven.ArtifactSearchDialog/0.25.1280.775@0.25.1280.775" timestamp="1621861578459" />
+    <state x="302" y="91" key="NewModule_or_Project.wizard" timestamp="1622278701697">
+      <screen x="0" y="25" width="1280" height="775" />
+    </state>
+    <state x="302" y="91" key="NewModule_or_Project.wizard/0.25.1280.775/0.-695.1280.695@0.25.1280.775" timestamp="1622278701697" />
+    <state x="171" y="29" key="SettingsEditor" timestamp="1622279230361">
+      <screen x="0" y="25" width="1280" height="775" />
+    </state>
+    <state x="-1775" y="-195" key="SettingsEditor/0.25.1280.775/-2048.-235.2048.1127@-2048.-235.2048.1127" timestamp="1620920023571" />
+    <state x="128" y="25" key="SettingsEditor/0.25.1280.775/-2048.-235.2048.1127@0.25.1280.775" timestamp="1619965602126" />
+    <state x="171" y="29" key="SettingsEditor/0.25.1280.775/0.-695.1280.695@0.25.1280.775" timestamp="1622279230361" />
+    <state x="128" y="25" key="SettingsEditor/0.25.1280.775@0.25.1280.775" timestamp="1619885650934" />
+    <state width="640" height="216" key="XDebugger.FullValuePopup" timestamp="1622385653984">
+      <screen x="0" y="25" width="1280" height="775" />
+    </state>
+    <state width="1024" height="314" key="XDebugger.FullValuePopup/0.25.1280.775/-2048.-235.2048.1127@-2048.-235.2048.1127" timestamp="1620980179435" />
+    <state width="640" height="216" key="XDebugger.FullValuePopup/0.25.1280.775@0.25.1280.775" timestamp="1622385653984" />
+    <state x="-894" y="-47" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1620920821302">
+      <screen x="-2048" y="-235" width="2048" height="1127" />
+    </state>
+    <state x="-894" y="-47" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.25.1280.775/-2048.-235.2048.1127@-2048.-235.2048.1127" timestamp="1620920821302" />
+    <state x="245" y="138" width="970" height="502" key="find.popup" timestamp="1622451120809">
+      <screen x="0" y="25" width="1280" height="775" />
+    </state>
+    <state x="-1326" y="-36" width="660" height="729" key="find.popup/0.25.1280.775/-2048.-235.2048.1127@-2048.-235.2048.1127" timestamp="1620940212358" />
+    <state x="245" y="138" width="970" height="502" key="find.popup/0.25.1280.775/0.-695.1280.695@0.25.1280.775" timestamp="1622451120809" />
+    <state x="46" y="72" key="new project wizard" timestamp="1622277953627">
+      <screen x="0" y="25" width="1280" height="775" />
+    </state>
+    <state x="46" y="72" key="new project wizard/0.25.1280.775/0.-695.1280.695@0.25.1280.775" timestamp="1622277953627" />
+    <state x="46" y="72" key="new project wizard/0.25.1280.775@0.25.1280.775" timestamp="1619884115758" />
+    <state x="431" y="198" width="670" height="465" key="search.everywhere.popup" timestamp="1622433223854">
+      <screen x="0" y="25" width="1280" height="775" />
+    </state>
+    <state x="-1359" y="17" width="670" height="676" key="search.everywhere.popup/0.25.1280.775/-2048.-235.2048.1127@-2048.-235.2048.1127" timestamp="1620940205999" />
+    <state x="431" y="198" width="670" height="465" key="search.everywhere.popup/0.25.1280.775/0.-695.1280.695@0.25.1280.775" timestamp="1622296240442" />
+    <state x="431" y="198" width="670" height="465" key="search.everywhere.popup/0.25.1280.775@0.25.1280.775" timestamp="1622433223854" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../Metanome/backend/src/main/java/de/metanome/backend/result_postprocessing/result_ranking/FunctionalDependencyRanking.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="comparator" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>

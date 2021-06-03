@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="algorithm_integration">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../Metanome/algorithm_integration/target/algorithm_integration-1.2-SNAPSHOT-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Metanome/algorithm_integration/target/algorithm_integration-1.2-SNAPSHOT.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Metanome/algorithm_integration/target/algorithm_integration-1.2-SNAPSHOT-javadoc.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/../Metanome/algorithm_helper/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../Metanome/algorithm_integration/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../Metanome/backend/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../Metanome/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../Metanome/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/DCFinder/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MetanomeTestRunner/src/main/java" charset="UTF-8" />
+  </component>
+</project>

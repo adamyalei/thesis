@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../Metanome/Metanome.iml" filepath="$PROJECT_DIR$/../Metanome/Metanome.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Metanome/Metanome (1) (org.example).iml" filepath="$PROJECT_DIR$/../Metanome/Metanome (1) (org.example).iml" />
+      <module fileurl="file://$PROJECT_DIR$/MetanomeTestRunner/MetanomeTestRunner.iml" filepath="$PROJECT_DIR$/MetanomeTestRunner/MetanomeTestRunner.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Metanome/algorithm_helper/algorithm_helper.iml" filepath="$PROJECT_DIR$/../Metanome/algorithm_helper/algorithm_helper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Metanome/algorithm_integration/algorithm_integration.iml" filepath="$PROJECT_DIR$/../Metanome/algorithm_integration/algorithm_integration.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Metanome/backend/backend.iml" filepath="$PROJECT_DIR$/../Metanome/backend/backend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DCFinder/dcfinder.iml" filepath="$PROJECT_DIR$/DCFinder/dcfinder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Metanome/metanome-algorithms/untitled/untitled.iml" filepath="$PROJECT_DIR$/../Metanome/metanome-algorithms/untitled/untitled.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/workspace.iml" filepath="$PROJECT_DIR$/.idea/workspace.iml" />
+    </modules>
+  </component>
+</project>

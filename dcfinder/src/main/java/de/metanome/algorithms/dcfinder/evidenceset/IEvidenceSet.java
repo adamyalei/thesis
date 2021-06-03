@@ -13,7 +13,7 @@ public interface IEvidenceSet extends Iterable<PredicateSet> {
 
 	long getCount(PredicateSet predicateSet);
 	
-	boolean adjustCount(PredicateSet predicateSet, long amount ) ;
+	boolean adjustCount(PredicateSet predicateSet, long amount) ;
 
 	Iterator<PredicateSet> iterator();
 

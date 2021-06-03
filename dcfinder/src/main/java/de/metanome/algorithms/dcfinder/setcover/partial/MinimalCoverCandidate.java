@@ -1,6 +1,7 @@
 
 package de.metanome.algorithms.dcfinder.setcover.partial;
 
+import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Comparator;
@@ -59,6 +60,9 @@ public class MinimalCoverCandidate {
 	public void searchMinimalCovers(ISubsetBackend mC, BitSetTranslator translator, NTreeSearch priorDCs) {
 
 		long tpCounts = getTpCounts(evidenceSet);
+//		for (PredicateSet ps : evidenceSet) {
+//			System.out.println(ps.toString() + " count: " + evidenceSet.getCount(ps));
+//		}
 
 		if (tpCounts <= violationsThreshold) {
 
@@ -89,6 +93,7 @@ public class MinimalCoverCandidate {
 		}
 		return tpCounts;
 	}
+
 
 	private MinimalCoverCandidate getCandidate(List<Predicate> pOrder, Predicate addInverse, ISubsetBackend MC,
 			BitSetTranslator translator, NTreeSearch priorDCs) {
@@ -200,5 +205,11 @@ public class MinimalCoverCandidate {
 		return counts;
 	}
 
+
+	public static long getPSTpCount(PredicateSet ps, IEvidenceSet evidenceSet) {
+		long totalTpCounts = getTpCounts(evidenceSet);
+		long PSTpCount =  evidenceSet.getCount(ps);
+		return PSTpCount;
+	}
 	
 }

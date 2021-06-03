@@ -40,6 +40,8 @@ public class MinimalCoverSearch implements IMinimalCoverSearch {
 		DenialConstraintSet dcs = new DenialConstraintSet();
 		for (PredicateSet s : MC) {
 			dcs.add(new DenialConstraint(s));
+//			long tpCount = evidenceSet.getCount(s);
+//			System.out.println(new DenialConstraint(s).toString() + " Count: " + tpCount);
 		}
 		dcs.minimize();
 
@@ -81,7 +83,6 @@ public class MinimalCoverSearch implements IMinimalCoverSearch {
 				counts[i] += evidenceSet.getCount(ps);
 			}
 		}
-
 		return counts;
 	}
 

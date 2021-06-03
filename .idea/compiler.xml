@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="backend" />
+        <module name="algorithm_helper (2)" />
+        <module name="algorithm_integration" />
+        <module name="MetanomeTestRunner" />
+        <module name="algorithm_helper" />
+        <module name="dcfinder" />
+        <module name="untitled" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="algorithm_helper" target="1.8" />
+      <module name="algorithm_helper (1)" target="1.8" />
+      <module name="algorithm_helper (2)" target="1.5" />
+      <module name="algorithm_integration" target="1.8" />
+      <module name="algorithm_integration (1)" target="1.8" />
+      <module name="algorithm_integration (2)" target="1.5" />
+      <module name="backend" target="1.8" />
+      <module name="backend (1)" target="1.8" />
+      <module name="backend (2)" target="1.5" />
+      <module name="dcfinder" target="1.8" />
+      <module name="metanome" target="1.5" />
+      <module name="Metanome" target="1.5" />
+      <module name="Metanome (1) (org.example)" target="1.5" />
+      <module name="MetanomeTestRunner" target="1.7" />
+      <module name="untitled" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="algorithm_helper" options="-Xlint:all" />
+      <module name="algorithm_helper (1)" options="-Xlint:all" />
+      <module name="algorithm_integration" options="-Xlint:all" />
+      <module name="algorithm_integration (1)" options="-Xlint:all" />
+      <module name="backend" options="-Xlint:all" />
+      <module name="backend (1)" options="-Xlint:all" />
+      <module name="dcfinder" options="-Xlint:all" />
+    </option>
+  </component>
+</project>

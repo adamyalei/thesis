@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="algorithm_helper">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../Metanome/algorithm_helper/target/algorithm_helper-1.2-SNAPSHOT-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Metanome/algorithm_helper/target/algorithm_helper-1.2-SNAPSHOT-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Metanome/algorithm_helper/target/algorithm_helper-1.2-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
