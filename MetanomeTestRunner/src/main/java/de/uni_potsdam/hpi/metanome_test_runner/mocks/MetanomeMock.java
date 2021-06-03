@@ -25,6 +25,8 @@ import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.BitSet;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
@@ -55,10 +57,6 @@ public class MetanomeMock {
 			long runtime = System.currentTimeMillis();
 			algorithm.execute();
 			runtime = System.currentTimeMillis() - runtime;
-
-//			// result analyzer
-//			List<RelationalInputGenerator> inputGenerators = new ArrayList<>();
-//			inputGenerators.add(inputGenerator);
 
 			writeResults(conf, resultReceiver, algorithm, runtime, inputGenerator);
 
@@ -102,8 +100,6 @@ public class MetanomeMock {
 
 	private static void rankingResult (Config conf, String outputPath, List<Result> results, RelationalInputGenerator inputGenerator)
 			throws AlgorithmConfigurationException, InputGenerationException, InputIterationException, IOException {
-		//TODO
-		// update result with ranking
 		/**
 		 Ranking results:
 		 - DC Result format
@@ -127,6 +123,22 @@ public class MetanomeMock {
 		DenialConstraintResultRanking ranking = new DenialConstraintResultRanking(dcResults, tableInformationMap);
 		ranking.calculateDataDependentRankings();
 
+		//rank the DCs according to their metrics score
+		Collections.sort(dcResults, new Comparator<DenialConstraintResult>() {
+			@Override
+			public int compare(DenialConstraintResult arg0,
+							DenialConstraintResult arg1) {
+						float score0 = (1 - arg0.getColumnRatio()) * arg0.getUniquenessRatio();
+						float score1 = (1 - arg1.getColumnRatio()) * arg1.getUniquenessRatio();
+						if (score0 > score1)
+							return -1;
+						else if (score0 < score1)
+							return 1;
+						else
+							return 0;
+					}
+		});
+
 		FileUtils.writeToFile(rankingFormat(dcResults), outputPath + conf.rankingResultFileName);
 
 	}
@@ -144,7 +156,9 @@ public class MetanomeMock {
 	private static String rankingFormat(List<DenialConstraintResult> results) {
 		StringBuilder builder = new StringBuilder();
 		for (DenialConstraintResult result : results) {
-			builder.append(result.getColumnRatio() + "; " + result.getUniquenessRatio() + ";");
+			builder.append(
+					((1 - result.getColumnRatio()) * result.getUniquenessRatio()) + ";" +
+					result.getColumnRatio() + ";" + result.getUniquenessRatio() + ";");
 			for (Predicate predicate : result.getResult().getPredicates()){
 				builder.append( predicate.toString()+ ";");
 			}
