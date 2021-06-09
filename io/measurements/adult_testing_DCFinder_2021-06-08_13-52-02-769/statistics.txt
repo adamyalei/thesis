@@ -1,4 +1,4 @@
-de.metanome.algorithms.dcfinder.DCFinder@6ab7a896
+de.metanome.algorithms.dcfinder.DCFinder@67b64c45
 
 Config:
 	algorithm: DCFinder
@@ -7,6 +7,6 @@ Config:
 	cross column min overlap: 0.3
 	no cross column: true
 
-Runtime: 3072
+Runtime: 2783
 
 Results: 355

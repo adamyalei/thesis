@@ -11,7 +11,12 @@ public class Config {
 	}
 	
 	public enum Dataset {
-		ADULT_TESTING, PLANETS, SYMBOLS, SCIENCE, SATELLITES, GAME, ASTRONOMICAL, ABALONE, ADULT, BALANCE, BREAST, BRIDGES, CHESS, ECHODIAGRAM, FLIGHT, HEPATITIS, HORSE, IRIS, LETTER, NURSERY, PETS, NCVOTER_1K, UNIPROD_1K
+		// set dataset parameters at the end
+		DIAGNOSIS, IMMIGRATION, POPULATION,
+		ADULT_TESTING, PLANETS, SYMBOLS, SCIENCE, SATELLITES, GAME,
+		ASTRONOMICAL, ABALONE, ADULT, BALANCE, BREAST, BRIDGES, CHESS, ECHODIAGRAM, FLIGHT,
+		HEPATITIS, HORSE, IRIS, LETTER, NURSERY,
+		PETS, NCVOTER_1K, UNIPROD_1K
 	}
 	
 	public Config.Algorithm algorithm;
@@ -105,6 +110,21 @@ public class Config {
 	private void setDataset(Config.Dataset dataset) {
 		this.dataset = dataset;
 		switch (dataset) {
+			case DIAGNOSIS:
+				this.inputDatasetName = "WIDP-Diagnosis";
+				this.inputFileSeparator = ',';
+				this.inputFileHasHeader = true;
+				break;
+			case IMMIGRATION:
+				this.inputDatasetName = "immigration";
+				this.inputFileSeparator = ',';
+				this.inputFileHasHeader = true;
+				break;
+			case POPULATION:
+				this.inputDatasetName = "population";
+				this.inputFileSeparator = ',';
+				this.inputFileHasHeader = true;
+				break;
 			case PLANETS:
 				this.inputDatasetName = "WDC_planets";
 				this.inputFileSeparator = ',';
