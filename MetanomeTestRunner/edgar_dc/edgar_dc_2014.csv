@@ -1,0 +1,34 @@
+﻿0.8888889,0.11111111,1,t0.Total Revenue==t1.Total Revenue,,
+0.8888889,0.11111111,1,t0.Total Equity==t1.Total Equity,,
+0.8888889,0.11111111,1,t0.Earnings Per Share==t1.Earnings Per Share,,
+0.8888889,0.11111111,1,t0.Ticker Symbol==t1.Ticker Symbol,,
+0.8888889,0.11111111,1,t0.Total Liabilities==t1.Total Liabilities,,
+0.8888889,0.11111111,1,t0.Net Income==t1.Net Income,,
+0.8888889,0.11111111,1,t0.Total Assets==t1.Total Assets,,
+0.8888889,0.11111111,1,t0.Cash and Cash Equivalents==t1.Cash and Cash Equivalents,,
+0.7777778,0.22222222,1,t0.Total Equity>=t1.Total Equity,t0.Total Assets<=t1.Total Assets,
+0.7777778,0.22222222,1,t0.Total Assets<=t1.Total Assets,t0.Total Liabilities>=t1.Total Liabilities,
+0.6666666,0.33333334,1,t0.Net Income>=t1.Net Income,t0.Cash and Cash Equivalents<t1.Cash and Cash Equivalents,t0.Total Equity<=t1.Total Equity
+0.6666666,0.33333334,1,t0.Cash and Cash Equivalents<t1.Cash and Cash Equivalents,t0.Total Equity>=t1.Total Equity,t0.Net Income<=t1.Net Income
+0.6666666,0.33333334,1,t0.Total Revenue<=t1.Total Revenue,t0.Total Liabilities>=t1.Total Liabilities,t0.Total Equity<=t1.Total Equity
+0.6666666,0.33333334,1,t0.Total Revenue<=t1.Total Revenue,t0.Net Income>=t1.Net Income,t0.Total Liabilities<t1.Total Liabilities
+0.6666666,0.33333334,1,t0.Net Income<t1.Net Income,t0.Total Liabilities>=t1.Total Liabilities,t0.Total Equity<=t1.Total Equity
+0.6666666,0.33333334,1,t0.Cash and Cash Equivalents<t1.Cash and Cash Equivalents,t0.Total Liabilities>=t1.Total Liabilities,t0.Total Equity<=t1.Total Equity
+0.6666666,0.33333334,1,t0.Net Income>=t1.Net Income,t0.Cash and Cash Equivalents<t1.Cash and Cash Equivalents,t0.Total Assets<=t1.Total Assets
+0.6666666,0.33333334,1,t0.Total Assets<=t1.Total Assets,t0.Total Revenue>=t1.Total Revenue,t0.Cash and Cash Equivalents>=t1.Cash and Cash Equivalents
+0.6666666,0.33333334,1,t0.Total Revenue<=t1.Total Revenue,t0.Net Income>=t1.Net Income,t0.Cash and Cash Equivalents<=t1.Cash and Cash Equivalents
+0.6666666,0.33333334,1,t0.Total Revenue<=t1.Total Revenue,t0.Net Income>=t1.Net Income,t0.Total Equity<=t1.Total Equity
+0.6666666,0.33333334,1,t0.Net Income<=t1.Net Income,t0.Total Revenue>=t1.Total Revenue,t0.Total Equity<=t1.Total Equity
+0.6666666,0.33333334,1,t0.Total Revenue<=t1.Total Revenue,t0.Total Liabilities<=t1.Total Liabilities,t0.Total Equity>=t1.Total Equity
+0.6666666,0.33333334,1,t0.Total Liabilities<=t1.Total Liabilities,t0.Cash and Cash Equivalents<t1.Cash and Cash Equivalents,t0.Total Equity>=t1.Total Equity
+0.6666666,0.33333334,1,t0.Net Income>=t1.Net Income,t0.Total Liabilities>=t1.Total Liabilities,t0.Total Equity<=t1.Total Equity
+0.6666666,0.33333334,1,t0.Total Revenue<=t1.Total Revenue,t0.Net Income>=t1.Net Income,t0.Total Liabilities>=t1.Total Liabilities
+0.44444442,0.33333334,0.6666667,t0.Total Revenue<=t1.Total Revenue,t0.Cash and Cash Equivalents>t1.Cash and Cash Equivalents,
+0.44444442,0.33333334,0.6666667,t0.Cash and Cash Equivalents<=t1.Cash and Cash Equivalents,t0.Total Equity<=t1.Total Equity,
+0.44444442,0.33333334,0.6666667,t0.Cash and Cash Equivalents<t1.Cash and Cash Equivalents,t0.Total Assets>t1.Total Assets,
+0.44444442,0.33333334,0.6666667,t0.Cash and Cash Equivalents<t1.Cash and Cash Equivalents,t0.Net Income>t1.Net Income,
+0.44444442,0.33333334,0.6666667,t0.Net Income<=t1.Net Income,t0.Total Assets>=t1.Total Assets,
+0.44444442,0.33333334,0.6666667,t0.Total Revenue<=t1.Total Revenue,t0.Net Income<t1.Net Income,
+0.44444442,0.33333334,0.6666667,t0.Total Revenue<=t1.Total Revenue,t0.Total Assets>=t1.Total Assets,
+0.44444442,0.33333334,0.6666667,t0.Total Equity>=t1.Total Equity,t0.Net Income<=t1.Net Income,
+0.44444442,0.33333334,0.6666667,t0.Net Income<t1.Net Income,t0.Cash and Cash Equivalents>t1.Cash and Cash Equivalents,

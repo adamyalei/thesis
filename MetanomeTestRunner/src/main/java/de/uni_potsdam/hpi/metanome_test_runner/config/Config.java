@@ -12,11 +12,11 @@ public class Config {
 	
 	public enum Dataset {
 		// set dataset parameters at the end
-		DIAGNOSIS, IMMIGRATION, POPULATION,
+		STOCK, EDGAR, DIAGNOSIS, IMMIGRATION, POPULATION,
 		ADULT_TESTING, PLANETS, SYMBOLS, SCIENCE, SATELLITES, GAME,
 		ASTRONOMICAL, ABALONE, ADULT, BALANCE, BREAST, BRIDGES, CHESS, ECHODIAGRAM, FLIGHT,
 		HEPATITIS, HORSE, IRIS, LETTER, NURSERY,
-		PETS, NCVOTER_1K, UNIPROD_1K
+		PETS, NCVOTER_1K, UNIPROD_1K;
 	}
 	
 	public Config.Algorithm algorithm;
@@ -110,6 +110,16 @@ public class Config {
 	private void setDataset(Config.Dataset dataset) {
 		this.dataset = dataset;
 		switch (dataset) {
+			case STOCK:
+				this.inputDatasetName = "stock_2016_04_3-7";
+				this.inputFileSeparator = ',';
+				this.inputFileHasHeader = true;
+				break;
+			case EDGAR:
+				this.inputDatasetName = "edgar";
+				this.inputFileSeparator = ';';
+				this.inputFileHasHeader = true;
+				break;
 			case DIAGNOSIS:
 				this.inputDatasetName = "WIDP-Diagnosis";
 				this.inputFileSeparator = ',';

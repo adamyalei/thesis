@@ -1,0 +1,12 @@
+de.metanome.algorithms.dcfinder.DCFinder@2812cbfa
+
+Config:
+	algorithm: DCFinder
+	dataset: edgar_2016.csv
+	approximation degree: 0.1
+	cross column min overlap: 0.5
+	no cross column: true
+
+Runtime: 907
+
+Results: 55

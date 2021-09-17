@@ -1,0 +1,12 @@
+de.metanome.algorithms.dcfinder.DCFinder@7e0ea639
+
+Config:
+	algorithm: DCFinder
+	dataset: stock_aa_aa.csv
+	approximation degree: 0.1
+	cross column min overlap: 0.3
+	no cross column: true
+
+Runtime: 10851
+
+Results: 20
