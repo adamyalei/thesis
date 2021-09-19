@@ -10,7 +10,7 @@ we use the second project, which is the MetanomeTestRunner, to run the algorithm
 development. The MetanomeTestRunner mocks the Metanome backend and algorithmically performs the configuration, which is 
 usually performed by the user. The essential difference between the algorithm and test runner project is that the algorithm 
 only depends on the Metanome interface whereas the test runner depends on the entire Metanome backend.
-Original developer introduction can be viewed from [![Metanome Algorithm Developer Guider](https://github.com/HPI-Information-Systems/Metanome/wiki/Metanome-Algorithm-Developer-Guide)].
+Original developer introduction can be viewed from [Metanome Algorithm Developer Guider](https://github.com/HPI-Information-Systems/Metanome/wiki/Metanome-Algorithm-Developer-Guide).
 
 ## Requirements
 - Java JDK 1.7 (or higher)
